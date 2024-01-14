@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+
+}
+h1{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
+    color: rgb(51, 51, 255);
+    text-align: center;
+}
+
+#images img{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    transform: rotate(0 deg);
+    scale:100%;
+    object-fit: cover;
+    opacity: 0.5;
+    
+}
+#images img:hover{
+    cursor: pointer;
+    border-radius: 100%;
+    transform: rotate(270deg);
+    scale: 110%;
+    opacity: 1;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+
+}
+#user-score, #com-score{
+    font-size: 3rem;
+}
+/* .text-container{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+} */
+
+#msg{
+    background-color: rgb(33, 124, 229);
+    color: white;
+    font-size: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
