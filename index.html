@@ -8,26 +8,27 @@
 </head>
 <body>
     <h1 id="title">Let's play Rock Paper Scissors</h1>
+    <h3 id="limitValue">You Have Set The Limit : <span id="limitScore">0</span></h3>
     <div id="images">
-        <img src="rockk.png" alt="rock" class="myImage" id="rock">
-        <img src="paper.png" alt="Paper" class="myImage" id="paper">
-        <img src="scissors.png" alt="scissors" class="myImage" id="scissor">
+        <div><img src="rockk.png" alt="rock" class="myImage" id="rock"></div>
+        <div><img src="paper.png" alt="Paper" class="myImage" id="paper"></div>
+        <div><img src="scissors.png" alt="scissors" class="myImage" id="scissor"></div>
     </div>
 
 
     <div class="score-board">
         <div class="score">
             <p id="user-score">0</p>
-            <p>You</p>
+            <p class="para">You</p>
         </div>
         <div class="score">
             <p id="com-score">0</p>
-            <p>Comp</p>
+            <p class="para">Comp</p>
         </div>
     </div>
 
     <div class="text-container">
-        <p id="msg">Start your move</p>
+        <p id="msg">Start Your Move</p>
     </div>
 
     <div class="popup">
@@ -36,9 +37,18 @@
     </div>
 
     <div id="tbutton">
-        <button type="button" id="toggle">Change Mode</button>
+        <button type="button" id="toggle">Dark</button>
     </div>
     
+    <div id="Restartbtn">
+        <button type="reset" id="restart"></button>
+    </div>
+    <div class="Quitpopup">
+        <h3 id="quitmsg">Are you sure, want to quit</h3>
+        <button id="y">Yes</button>
+        <button id="n">No</button>
+    </div>
+    <div id="endMsg"></div>
 <script src="RPSJS.js"></script>
 </body>
 </html>
